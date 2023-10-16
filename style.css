@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.upper-part{
+    background-color: #ffcd9e;
+    
+    
+}
+
+.ems{
+    margin-top: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    font-size: 20px;
+    border-bottom: solid  #ff9a3d ;
+    transition: 0.4s;
+}
+
+
+nav img{
+    height: 30px;
+    width: 90px;
+}
+
+nav button{
+    background-color: #ff9a3d;
+    border-radius: 12px;
+    border-color: transparent;
+    margin-top: 15px;
+    
+    
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero h1{
+    white-space: pre;
+    font-size: 50px;
+    color: #FF7A00;
+}
+
+.shop-button{
+    background-color:#ff9a3d ;
+    color: white;
+    border: transparent;
+    border-radius: 12px;
+    padding: 20px 90px;
+    margin-left: 40%;
+    margin-bottom:100px;
+    font-size: 30px;
+    
+}
+.shop-button:hover{
+    font-size: 35px;
+    transition: 0.4s;
+}
+
+
+.writeup{
+    background-color: black;
+    color: white;
+    height: 400px;
+    white-space: pre;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+
+}
+
+main h5{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.shopping-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 80px;
+    
+}
+
+
+.shopping-items div{
+    flex-basis: 33.33333%;
+    
+}
+
+
+.shopping-items h2{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.shopping-items button{
+    background-color: #FF7A00;
+    border: transparent;
+    border-radius: 12px;
+    padding: 20px 110px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    
+}
+
+.shopping-items button:hover{
+    color: rgb(222, 193, 193);
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer small{
+    color: white;
+}
