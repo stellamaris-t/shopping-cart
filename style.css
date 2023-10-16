@@ -49,12 +49,14 @@ nav button{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-right: 300px;
 }
 
 .hero h1{
     white-space: pre;
-    font-size: 50px;
+    font-size: 5vw;
     color: #FF7A00;
+    
 }
 
 .shop-button{
@@ -157,6 +159,19 @@ footer small{
     .shopping-items{
         margin: 60px
     }
+    .writeup{
+        height: 100px;
+    }
+    .shop-button{
+        margin-left: 30px;
+
+    }
+    .hero img{
+        width: 400px;
+        margin-left: 40px;
+    }
     
 
 }
+
+
