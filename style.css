@@ -139,3 +139,11 @@ footer{
 footer small{
     color: white;
 }
+
+@media (width < 900px){
+    .hero{
+        display: block;
+        padding-top: 90px;
+        text-align: center;
+    }
+}
