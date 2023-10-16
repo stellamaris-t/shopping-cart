@@ -170,6 +170,9 @@ footer small{
         width: 400px;
         margin-left: 40px;
     }
+    .hero h1{
+        font-size: 35px;
+    }
     
 
 }
