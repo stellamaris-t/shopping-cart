@@ -145,5 +145,7 @@ footer small{
         display: block;
         padding-top: 90px;
         text-align: center;
+        width: fit-content;
     }
+
 }
