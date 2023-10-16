@@ -81,7 +81,7 @@ nav button{
     white-space: pre;
     text-align: center;
     padding-top: 30px;
-    font-size: 40px;
+    font-size: 2.6vw;
 
 }
 
@@ -153,6 +153,9 @@ footer small{
         padding-top: 90px;
         text-align: center;
         width: fit-content;
+    }
+    .shopping-items{
+        margin: 60px
     }
     
 
